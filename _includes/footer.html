@@ -4,10 +4,8 @@
 <script src="/assets/js/jquery.pjax.js"></script>
 <script src="/assets/js/nprogress.js"></script>
 <script src="/assets/js/script.js"></script>
-<% case site.comments.provider %>
-<% when "duoshuo" %>
-  <% <script src="/assets/js/duoshuo.js"></script> %>
-<% when "disqus" %>
-  <% <script src="/assets/js/disqus.js"></script> %>
-<% endcate %>
+{% case site.comments.provider %}
+{% when "duoshuo" %}
+  {% <script src="/assets/js/duoshuo.js"></script> %}
+{% endcate %}
 
