@@ -7,14 +7,14 @@ description: 一些python的基本语法和需要注意的地方
 ---
 
 
-##Python集合  
+## Python集合  
 
 1. 有序集合 list tuple str 和 unicode
 2. 无序集合 set
 3. 无序集合并具有key-value dict
 
 
-####有序集合的迭代  
+#### 有序集合的迭代  
 
 `enumerate()`函数
 
@@ -23,7 +23,7 @@ L = ['Adam','Lisa','Bart','Paul']
 for index,name in enumerate(L):
     print index,'-',name
 ```
-####字典的迭代  
+#### 字典的迭代  
 
 如果只要迭代字典的value：  
 1. `values()`  
@@ -38,7 +38,7 @@ for index,name in enumerate(L):
 和itervalues()类似，它是在迭代的过程中不断给出tupe，不占用额外的内存
 
 
-##Unicode字符串  
+## Unicode字符串  
 
 在需要中文字符串前加`u`  
 如果恰好也是`raw`的字符串，则在字符串前加`ur`  
@@ -47,7 +47,7 @@ for index,name in enumerate(L):
     # -*- coding:utf-8 -*-  
     
 
-##布尔类型  
+## 布尔类型  
 
 只有`True`和`False`两种值
 
@@ -58,7 +58,7 @@ for index,name in enumerate(L):
 布尔类型还可以和其他数据类型做and or not 运算，python会把`0`、`空字符串`、`None`看成`False`，`其他数值`和`非空字符串`都看成`True`
 
 
-##List添加元素  
+## List添加元素  
 
 1. `append(element)`添加到list尾部
 2. `insert(index,element)`添加到指定位置，该位置以及以后的元素都后移一位
@@ -66,7 +66,7 @@ for index,name in enumerate(L):
 4. `pop(index)`将index位置的元素删掉
 
 
-##tuple  
+## tuple  
 
 创建单元素tuple的时候需要在该元素后增加一个`,`
 ```python
@@ -74,13 +74,13 @@ t = (1,)
 ```   
 
 
-##代码缩进  
+## 代码缩进  
 
 Python将具有相同缩进的代码视为代码块  
 缩进的格式:`4个空格`，不要使用Tab，更不要混合Tab和空格
 
 
-##Python分支语句  
+## Python分支语句  
 
 ```python
 if condition:
@@ -101,7 +101,7 @@ else:
 ```
 
 
-##Python循环  
+## Python循环  
 
 for：
 
@@ -121,7 +121,7 @@ while condition:
 `continue`:继续循环
 
 
-##Dict 字典  
+## Dict 字典  
 
 访问字典元素时，若key不存在就会KeyError，解决方法有两种  
 1. 访问前先判断key是否存在 用in操作符   
@@ -138,15 +138,15 @@ d.get('key')
 ```
     
 
-##Set集合  
+## Set集合  
 
 set持有一系列元素，但不能重复，而且无序
 创建的方式是调用`set()`并且传入一个list，list的元素将作为set的元素  
 `item in set` 确定item是否属于set 是返回`True` 不属于返回`False`  
 
-####往Set中添加元素 *`add()`* 
+#### 往Set中添加元素 *`add()`* 
 
-####删除set中的元素 *`remove()`*  
+#### 删除set中的元素 *`remove()`*  
 
 删除之前需要判断一下  
 
@@ -156,7 +156,7 @@ if item in set:
 ```
 
 
-##函数  
+## 函数  
 
 如果调用函数时传入的参数数量不对，或者参数数量对而参数类型不能被函数所接受，将会报TypeError的错误  
 
@@ -171,7 +171,7 @@ def my_fuc(x):
 
 `return None`可以简写为`return`  
 
-####Python的函数还可以返回多个值  
+#### Python的函数还可以返回多个值  
 
 其本质是返回了一个tuple，并将tuple的值赋值给接收的变量
 
@@ -186,11 +186,11 @@ x,y = move(100,100,50,math.pi / 6)
 print x,y
 ```
 
-####函数定义时的默认参数  
+#### 函数定义时的默认参数  
 
 默认参数只能定义在必需参数的后面
 
-####定义可变参数  
+#### 定义可变参数  
 
 在定义函数时，参数的前面加一个`*`可以传入0个到多个参数给它  
 其原理是把多个参数包装成一个tuple传递给它，所以在函数内部把可变参数当成一个tuple来读取  
@@ -205,7 +205,7 @@ def average(*args):
 ```
 
 
-##List切片操作
+## List切片操作
 
     List[begin:end:interval](begin<=end)
     
@@ -213,7 +213,7 @@ def average(*args):
 字符串可以当做List来切片
 
 
-##列表生成式  
+## 列表生成式  
 
 1. 想生成[1x1,2x2,3x3,...,10x10] 简单生成式
 
