@@ -302,14 +302,6 @@ a {
     #pl__container {
       font-size: 15px;
       top: 50px; } }
-	  
-.main_title > .pl__circle{
-	  margin: 12px 12px;
-	  padding: 12px 8px 3px;
-	  border-radius: 4px;
-	  display: block; 
-	  background:#fafafa;  
-	  }
 
 .pl__all {
   margin: 4px 12px;
