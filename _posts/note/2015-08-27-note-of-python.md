@@ -3,7 +3,7 @@ layout: post
 title: python 基础学习笔记 
 category: 笔记
 tags: [python , note]
-description:一些python的基本语法和需要注意的地方 
+description: 一些python的基本语法和需要注意的地方 
 ---
 
 
