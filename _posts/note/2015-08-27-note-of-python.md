@@ -37,7 +37,6 @@ for index,name in enumerate(L):
 2. `iteritems()`
 和itervalues()类似，它是在迭代的过程中不断给出tupe，不占用额外的内存
 
----
 
 ##Unicode字符串  
 
@@ -47,7 +46,6 @@ for index,name in enumerate(L):
 
     # -*- coding:utf-8 -*-  
     
----
 
 ##布尔类型  
 
@@ -59,7 +57,6 @@ for index,name in enumerate(L):
 
 布尔类型还可以和其他数据类型做and or not 运算，python会把`0`、`空字符串`、`None`看成`False`，`其他数值`和`非空字符串`都看成`True`
 
----
 
 ##List添加元素  
 
@@ -68,7 +65,6 @@ for index,name in enumerate(L):
 3. `pop()` 将在尾部的元素删除并返回
 4. `pop(index)`将index位置的元素删掉
 
----
 
 ##tuple  
 
@@ -77,14 +73,12 @@ for index,name in enumerate(L):
 t = (1,)
 ```   
 
----
 
 ##代码缩进  
 
 Python将具有相同缩进的代码视为代码块  
 缩进的格式:`4个空格`，不要使用Tab，更不要混合Tab和空格
 
----
 
 ##Python分支语句  
 
@@ -106,7 +100,6 @@ else:
     statment
 ```
 
----
 
 ##Python循环  
 
@@ -127,7 +120,6 @@ while condition:
 `break`: 退出循环
 `continue`:继续循环
 
----
 
 ##Dict 字典  
 
@@ -145,7 +137,6 @@ while condition:
 d.get('key')
 ```
     
----
 
 ##Set集合  
 
@@ -164,7 +155,6 @@ if item in set:
     set.remove(item)
 ```
 
----
 
 ##函数  
 
@@ -214,7 +204,6 @@ def average(*args):
 
 ```
 
----
 
 ##List切片操作
 
@@ -223,7 +212,6 @@ def average(*args):
 从begin起(包含begin)每interval取一个数一直到end(不包含end)结束，支持倒序切片  
 字符串可以当做List来切片
 
----
 
 ##列表生成式  
 
