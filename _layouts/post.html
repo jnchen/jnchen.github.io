@@ -8,9 +8,4 @@ layout: base
 </article> <!-- end #post__content -->
 
 {% include share.html %}
-{% case site.comments.provider %}
-{% when "duoshuo" %}
-  {% include duoshuo.html %}
-{% when "disqus" %}
-  {% include disqus.html %}
-{% endcase %}
+{% include disqus.html %}
