@@ -28,6 +28,10 @@ favicon: http://jnchen.me/images/favicon.ico
 #  id: UA-54767140-1
 #  url: 
 
+# baidu analytics 设置
+analytics :
+    provider : custom
+    
 # disqus 设置
 disqus:
   shortname: jnchen
