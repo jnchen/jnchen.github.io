@@ -23,6 +23,7 @@ L = ['Adam','Lisa','Bart','Paul']
 for index,name in enumerate(L):
     print index,'-',name
 ```
+
 #### 字典的迭代  
 
 如果只要迭代字典的value：  
