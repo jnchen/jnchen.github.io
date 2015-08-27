@@ -9,19 +9,19 @@ kramdown:
 author: 
   name: 曹井琛
   email: 42629624@qq.com
-  link: http://jnchen.github.io
+  link: http://jnchen.me
   weibo: http://weibo.com/caojingchen
   github: http://github.com/jnchen
 
 # 站点信息
 title: JnChen's Blog 
 description: 一个代码狗的博客
-url: http://jnchen.github.io
+url: http://jnchen.me
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: http://jnchen.github.io/images/avatar.png
-favicon: http://jnchen.github.io/favicon.ico
+avatar: http://jnchen.me/images/avatar.png
+favicon: http://jnchen.me/images/favicon.ico
 
 # google analytics 设置
 #ga:
