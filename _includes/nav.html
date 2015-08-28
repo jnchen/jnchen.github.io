@@ -25,7 +25,7 @@
 
     <nav id="pl__container">
     {% for post in site.posts %}
-      <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title | truncate: 36}}</span><span class="pl__date">{{ post.date | date: "%F" }}</span></a>
+      <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title | truncate: 18}}</span><span class="pl__date">{{ post.date | date: "%F" }}</span></a>
     {% endfor %}
     </nav>
   </div> <!-- end #posts-list -->
