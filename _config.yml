@@ -33,5 +33,6 @@ favicon: http://jnchen.me/images/favicon.ico
 #   short_name: jnchen
     
 # disqus 设置
-disqus:
+comments:
+  provider: disqus
   shortname: jnchen
