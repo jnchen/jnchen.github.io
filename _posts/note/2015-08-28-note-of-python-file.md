@@ -2,7 +2,7 @@
 layout: post
 title: "Python 文件笔记"
 description: "Python学习笔记之文件"
-category: note
+category: 笔记
 tags: [Python, note]
 ---
 
