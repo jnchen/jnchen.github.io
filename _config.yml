@@ -27,12 +27,7 @@ favicon: http://jnchen.me/images/favicon.ico
 #ga:
 #  id: UA-54767140-1
 #  url: 
-# comments 设置
-#comments:
-#   provider: disqus 
-#   short_name: jnchen
-    
+
 # disqus 设置
-comments:
-  provider: youyan
+disqus: 
   shortname: jnchen
