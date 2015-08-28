@@ -116,10 +116,9 @@ function afterPjax() {
     });
   });
 
-   // Lazy Loading Disqus
-//   //   // http://jsfiddle.net/dragoncrew/SHGwe/1/
-
-   var ds_loaded = false,
+  // Lazy Loading Disqus
+  // http://jsfiddle.net/dragoncrew/SHGwe/1/
+  var ds_loaded = false,
       top = $('#disqus_thread').offset().top;
   window.disqus_shortname = $('#disqus_thread').attr('name');
 
@@ -135,5 +134,5 @@ function afterPjax() {
     }
   }check();
   container.scroll(check);
-  
 }afterPjax();
+
