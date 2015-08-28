@@ -5,6 +5,7 @@
 <script src="/assets/js/nprogress.js"></script>
 <script src="/assets/js/script.js"></script>
 <!-- <script src="/assets/js/{{site.comments.provider}}.js"></script> -->
-{% if site.comments.provider == "disqus" %}
-  <script scr="/assets/js/disqus.js"></script>
-{% endif %}
+{% case site.comments.provider %}
+  {% when "youyan" %}
+    <script scr="http://v2.uyan.cc/code/uyan.js?uid=2057017"></script>
+{% endcase %}
