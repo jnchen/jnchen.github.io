@@ -34,5 +34,5 @@ favicon: http://jnchen.me/images/favicon.ico
     
 # disqus 设置
 comments:
-  provider: disqus
+  provider: youyan
   shortname: jnchen
