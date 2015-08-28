@@ -66,8 +66,7 @@ Python中文件是对象
 
 `tell()`：返回文件当前偏移
 
-
-###　Python文件指针定位方式  
+### Python文件指针定位方式 
 
 `os.SEEK_SET`：相对文件起始位置     0
 `os.SEEK_CUR`：相对文件当前位置     1
@@ -80,7 +79,7 @@ Python中文件是对象
 `file.encoding`:文件编码格式
 `file.closed`：文件是否关闭
 
-##　Python标准文件  
+## Python标准文件  
 
 文件标准输入：`sys.stdin`
 文件标准输出：`sys.stdout`
