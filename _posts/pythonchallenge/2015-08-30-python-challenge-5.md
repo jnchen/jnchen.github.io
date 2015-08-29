@@ -46,3 +46,27 @@ print obj
 好吧,这原来是想让你打印出来,23个列表是23行,`每个元组里保存了要打印的字符和打印几次`
 
 我们将这个obj按照上述逻辑打印一下试试,果然出现了一个图案....就是下一关的密码..代码如下
+
+```python
+#!/usr/bin/python
+import urllib,pickle
+
+txt = urllib.urlopen('http://www.pythonchallenge.com/pc/def/banner.p').read()
+
+f = open('obj1','w+')
+
+f.write(txt)
+
+f.seek(0)
+
+obj = pickle.load(f)
+
+f.close()
+line =[]
+for i in obj:
+    for k,v in i:
+        for j in range(0,int(v)):
+            line.append(k)
+    print "".join(line)
+    line =[]
+```
