@@ -4,6 +4,7 @@ title: "Python Challenge第1关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
+date: 2015-08-29 11:15:54
 ---
 
 解决完上一关的问题,我们来到了第二关,照例还是有一张图
