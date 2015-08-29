@@ -4,6 +4,7 @@ title: "Python Challenge第0关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
+date: 2015-08-29 10:50:38
 ---
 
 忘了告诉大家,这个Python Challenge是一个看图闯关的游戏,每一关都会给你一张图,然后让你自己从图中找到下一关的蛛丝马迹.(所以才可以锻炼脑洞啊~).
