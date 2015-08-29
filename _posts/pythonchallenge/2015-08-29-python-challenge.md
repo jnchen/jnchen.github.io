@@ -4,6 +4,7 @@ title: "Python Challenge介绍"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
+date: 2015-08-29 09:46:39
 ---
 
 最近学习python,偶然间发现了一个神奇的网站[python challenge](http://www.pythonchallenge.com/)
