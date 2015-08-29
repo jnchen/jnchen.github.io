@@ -4,6 +4,7 @@ title: "自定义sortComparator出错"
 description: "mapreduce程序进行二次排序是，不正确的自定义sortCompartor分析"
 category: hadoop
 tags: [mapreduce,hadoop,secondarysort]
+date: 2015-08-7 11:35:21
 ---
 
 ## 问题描述:在自定义sortComparator的时候发生错误
