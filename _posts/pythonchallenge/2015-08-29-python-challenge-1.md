@@ -8,7 +8,7 @@ tags: [python]
 
 忘了告诉大家,这个Python Challenge是一个看图闯关的游戏,每一关都会给你一张图,然后让你自己从图中找到下一关的蛛丝马迹.(所以才可以锻炼脑洞啊~).
 
-OK.我们打开第一关,看到了第一关的挑战   [!image](http://www.pythonchallenge.com/pc/def/calc.jpg)
+OK.我们打开第一关,看到了第一关的挑战   ![第一关配图](http://www.pythonchallenge.com/pc/def/calc.jpg)
 
 啊....这是什么鬼
 
