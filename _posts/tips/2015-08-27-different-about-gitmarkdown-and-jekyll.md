@@ -4,6 +4,7 @@ title: "Github支持的markdown语法和jekyll的不同"
 description: "markdown语法的tips"
 category: tips
 tags: [markdown jekyll]
+date: 2015-08-27 16:28:17
 ---
 
 ## 标题语法
