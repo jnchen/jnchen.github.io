@@ -4,7 +4,7 @@ title: "Python Challenge第5关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
-date: 2015-08-29 23:13:46
+date: 2015-08-30 00:26:13
 ---
 
 本关图片![Python Challenge第5关配图](http://www.pythonchallenge.com/pc/def/peakhell.jpg)
@@ -28,6 +28,7 @@ date: 2015-08-29 23:13:46
 我们试着弄下来看一下
 
 ```python
+#!/usr/bin/python
 import urllib,pickle
 
 txt = urllib.urlopen('http://www.pythonchallenge.com/pc/def/banner.p').read()
