@@ -65,7 +65,7 @@ maketrans(...)
 
 函数的定义就不说了，翻译一下下面的解释
 
-> 返回一个转换表(256字节长的字符串)
+> 返回一个转换表(256字节长的字符串)  
 > 配合着string.translate使用.frm字符串和to字符串必须要是一样的长度
 
 原来这个可以自动生成一些转换规则啊,于是我们尝试着用一下这个`string.maketrans`和`string.translate`
@@ -84,16 +84,16 @@ print encrypt(question)
 
 另外我发现`string`模块有一些属性
 
-> whitespace -- a string containing all characters considered whitespace
-> lowercase -- a string containing all characters considered lowercase letters
-> uppercase -- a string containing all characters considered uppercase letters
-> letters -- a string containing all characters considered letters
-> digits -- a string containing all characters considered decimal digits
-> hexdigits -- a string containing all characters considered hexadecimal digits
-> octdigits -- a string containing all characters considered octal digits
-> punctuation -- a string containing all characters considered punctuation
-> printable -- a string containing all characters considered printable
-
+> whitespace -- a string containing all characters considered whitespace  
+> lowercase -- a string containing all characters considered lowercase letters  
+> uppercase -- a string containing all characters considered uppercase letters  
+> letters -- a string containing all characters considered letters  
+> digits -- a string containing all characters considered decimal digits  
+> hexdigits -- a string containing all characters considered hexadecimal digits  
+> octdigits -- a string containing all characters considered octal digits  
+> punctuation -- a string containing all characters considered punctuation  
+> printable -- a string containing all characters considered printable  
+ 
 这里面有一个`lowercase`我们可以用一下,改写我们的程序如下
 
 ```python
