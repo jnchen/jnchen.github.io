@@ -4,6 +4,7 @@ title: python 基础学习笔记
 category: 笔记
 tags: [python , note]
 description: 一些python的基本语法和需要注意的地方 
+date: 2015-08-27 09:40:33
 ---
 
 
