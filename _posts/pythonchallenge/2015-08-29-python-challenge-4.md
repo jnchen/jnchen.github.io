@@ -48,6 +48,7 @@ while True:
 果然在这里等着我们呢...翻译一下`干的漂亮,除以二继续`
 
 好吧需要修改一下逻辑了....我们暂时先不管停止条件了....
+
 ```python
 #!/usr/bin/python
 import urllib
@@ -78,6 +79,7 @@ while True:
 让我们想想还有什么办法能让他更好的跑呢....对了,我们上一节用过的`正则表达式`
 
 改写程序如下
+
 ```python
 #!/usr/bin/python
 import urllib,re
