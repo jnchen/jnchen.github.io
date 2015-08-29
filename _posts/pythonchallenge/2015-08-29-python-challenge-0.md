@@ -14,4 +14,4 @@ tags: [python]
 
 废话少说,进入网站后点击`Click here to get challenged`开始闯关
 
-这里附上第一关传送门,直接开始吧 enjoy it.      [challenge 1](http://www.pythonchallenge.com/pc/def/0.html)
+这里附上第一关传送门,直接开始吧  [challenge 1](http://www.pythonchallenge.com/pc/def/0.html)  enjoy it.
