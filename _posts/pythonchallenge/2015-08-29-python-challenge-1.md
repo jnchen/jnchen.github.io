@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Challenge第一关闯关流程"
+title: "Python Challenge第0关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
@@ -8,7 +8,7 @@ tags: [python]
 
 忘了告诉大家,这个Python Challenge是一个看图闯关的游戏,每一关都会给你一张图,然后让你自己从图中找到下一关的蛛丝马迹.(所以才可以锻炼脑洞啊~).
 
-OK.我们打开第一关,看到了第一关的挑战   ![第一关配图](http://www.pythonchallenge.com/pc/def/calc.jpg)
+OK.我们打开第0关,看到了第0关的挑战   ![第一关配图](http://www.pythonchallenge.com/pc/def/calc.jpg)
 
 啊....这是什么鬼
 
@@ -28,4 +28,4 @@ print(2**38)
 
 这时我突然明朗了,让改URL地址,好吧,把URL的0改成`274877906944`.
 
-回车...果然,跑到了第二关(第二关的地址就不给了,想去的自己跟着试一下即可).
+回车...果然,跑到了第2关(第2关的地址就不给了,想去的自己跟着试一下即可).
