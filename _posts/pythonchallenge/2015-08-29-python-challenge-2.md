@@ -4,6 +4,7 @@ title: "Python Challenge第2关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
+date: 2015-08-29 13:18:38
 ---
 
 进入第二关,我们看到给的图瞬间崩溃了...
