@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Python Challenge第二关闯关流程"
+title: "Python Challenge第1关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
 ---
 
 解决完上一关的问题,我们来到了第二关,照例还是有一张图
-![Python 第二关图片](http://www.pythonchallenge.com/pc/def/map.jpg)
+![Python 第1关图片](http://www.pythonchallenge.com/pc/def/map.jpg)
 
 另外下面还跟了一些文字
 
