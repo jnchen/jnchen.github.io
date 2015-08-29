@@ -4,6 +4,7 @@ title: "Python 文件笔记"
 description: "Python学习笔记之文件"
 category: 笔记
 tags: [Python, note]
+date: 2015-08-28 09:48:37
 ---
 
 ## 概念 
