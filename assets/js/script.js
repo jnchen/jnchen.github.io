@@ -121,7 +121,7 @@ function afterPjax() {
   var ds_loaded = false,
       top = $('#ds-thread').offset().top;
   
-  windows.short_name = 'jnchen'
+  window.short_name = 'jnchen'
   function check() {
     if ( !ds_loaded && container.scrollTop() + container.height() > top ) {
       $.ajax({
