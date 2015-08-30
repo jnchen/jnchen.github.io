@@ -4,7 +4,7 @@ title: "Python urllib模块"
 description: "Python学习笔记之urllib模块"
 category: 笔记
 tags: [Python, note]
-date: 2015-08-28 09:48:37
+date: 2015-08-30 15:40:18
 ---
 
 *python3中urlib拆分为urllib.request,urllib.parse,urllib.error*
