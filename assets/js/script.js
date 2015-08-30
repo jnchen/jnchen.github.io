@@ -119,14 +119,16 @@ function afterPjax() {
   // Lazy Loading Disqus
   // http://jsfiddle.net/dragoncrew/SHGwe/1/
   var ds_loaded = false,
-      top = $('#disqus_thread').offset().top;
-  window.disqus_shortname = $('#disqus_thread').attr('name');
-
+      top = $('#SOHUCS').offset().top;
+  windows.changyan.api.config({
+      appid: 'cyrX1xWJQ'
+      conf: 'prod_0bcbd0e68e5e6523b65438e1646c507c'
+  });
   function check() {
     if ( !ds_loaded && container.scrollTop() + container.height() > top ) {
       $.ajax({
         type: 'GET',
-        url: 'http://' + disqus_shortname + '.disqus.com/embed.js',
+        url: 'http://changyan.sohu.com/upload/changyan.js',
         dataType: 'script',
         cache: true
       });
