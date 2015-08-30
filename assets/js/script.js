@@ -128,9 +128,9 @@ function afterPjax() {
         type: 'GET',
         url: (document.location.protocol == 'https:' ? 'https:' : 'http:')+'//static.duoshuo.com/embed.js',
         dataType: 'script',
-        cache: true
+        cache: false
       });
-      ds_loaded = true;
+      ds_loaded = false;
     }
   }check();
 
