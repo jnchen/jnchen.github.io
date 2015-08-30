@@ -121,7 +121,7 @@ function afterPjax() {
   var ds_loaded = false,
       top = $('#ds-thread').offset().top;
   
-  window.short_name = 'jnchen'
+  var duoshuoQuery = {short_name:"jnchen"};
   function check() {
     if ( !ds_loaded && container.scrollTop() + container.height() > top ) {
       $.ajax({
