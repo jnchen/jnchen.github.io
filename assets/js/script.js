@@ -119,14 +119,14 @@ function afterPjax() {
   // Lazy Loading Disqus
   // http://jsfiddle.net/dragoncrew/SHGwe/1/
   var ds_loaded = false,
-      top = $('#SOHUCS').offset().top;
+      top = $('#ds-thread').offset().top;
   
-
+  windows.short_name = 'jnchen'
   function check() {
     if ( !ds_loaded && container.scrollTop() + container.height() > top ) {
       $.ajax({
         type: 'GET',
-        url: 'http://changyan.sohu.com/upload/changyan.js',
+        url: (document.location.protocol == 'https:' ? 'https:' : 'http:')+'//static.duoshuo.com/embed.js',
         dataType: 'script',
         cache: true
       });
