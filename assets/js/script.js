@@ -133,10 +133,6 @@ function afterPjax() {
       ds_loaded = true;
     }
   }check();
-  window.changyan.api.config({
-        appid: 'cyrX1xWJQ',
-        conf: 'prod_0bcbd0e68e5e6523b65438e1646c507c'
-    });
 
   container.scroll(check);
 }afterPjax();
