@@ -42,6 +42,8 @@ python3将urllib1和urllib2做了合并,将所有方法和属性重新分配成�
 
 `urllib.robotparser` robot文件解析
 
+**新的`urllib`库返回的网页信息都是bytes编码的,视情况而定解码或保存**
+
 ## 字符串
 
 python2 中字符串有str和unicode两种类型,后者还需要在前面加一个u
