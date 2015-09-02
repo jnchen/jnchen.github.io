@@ -28,8 +28,9 @@ date: 2015-08-7 11:35:21
 
 在实现的过程中，用到了自定义`sortComparator`(当然我还用了自定义Key),把key和value全部装进key中，自定义`partitioner`让它按照key分区，自定义`groupingComparator`使得数据可以正常的聚集
 
-``` java 
+{% highlight java %}
 //自定义的groupingCoparator
+
 public static class MyComparator extends WritableComparator {
 		@Override
 		public int compare(WritableComparable a, WritableComparable b)      
@@ -69,7 +70,7 @@ public static class MyValueComparator extends WritableComparator {
 			}
 		}
 	}
-```
+{% endhighlight %}
 
 但是运行后却报错了
 
@@ -79,7 +80,7 @@ public static class MyValueComparator extends WritableComparator {
 
 我们在继承`WritableComparator`的时候， 不能仅仅实现`compare`函数就可以，还需要写一个显式的构造函数，传入compare的类
 
-```
+{% highlight java %}
 //以groupingComparator为例(这个代码比较少)
 public static class MyComparator extends WritableComparator {
 		/////////////////////////////////////////
@@ -101,15 +102,15 @@ public static class MyComparator extends WritableComparator {
 		}
 
 	}
-```
+{% endhighlight %}
 
 添加完构造函数以后，程序就可以正常的运行了。
 
 最后说一下这个思路并是不很通用，要求name.txt要唯一，当然我们可以在mapreduce前开一个去重任务。这个过程的本质实际上是一个**二次排序**的过程。
 最后附上全部代码:
 
-``` java
 
+{% highlight java %}
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
@@ -308,7 +309,6 @@ public class SortedKV {
 	}
 
 }
-
-```
+{% endhighlight %}
 
 
