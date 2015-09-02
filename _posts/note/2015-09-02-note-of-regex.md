@@ -117,7 +117,7 @@ date: 2015-09-02 12:06:37
 		<td>匹配exp前面的位置</td>
 	</tr>
 	<tr>
-		<td>(?<=exp)</td>
+		<td>(?&lt;=exp)</td>
 		<td>匹配exp后面的位置</td>
 	</tr>
 	<tr>
@@ -125,7 +125,7 @@ date: 2015-09-02 12:06:37
 		<td>匹配后面跟的不是exp的位置</td>
 	</tr>
 	<tr>
-		<td>(?<!exp)</td>
+		<td>(?&lt;!exp)</td>
 		<td>匹配前面不是exp的位置</td>
 	</tr>
 	<tr>
