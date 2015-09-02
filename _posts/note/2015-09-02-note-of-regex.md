@@ -112,7 +112,7 @@ date: 2015-09-02 12:06:37
 		<td>匹配exp,不捕获匹配的文本,也不给此组分配组号</td>
 	</tr>
 	<tr>
-		<td rowspan="3">零宽断言</td>
+		<td rowspan="4">零宽断言</td>
 		<td>(?=exp)</td>
 		<td>匹配exp前面的位置</td>
 	</tr>
