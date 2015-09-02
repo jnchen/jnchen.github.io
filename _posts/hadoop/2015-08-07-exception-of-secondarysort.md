@@ -81,6 +81,7 @@ public static class MyValueComparator extends WritableComparator {
 我们在继承`WritableComparator`的时候， 不能仅仅实现`compare`函数就可以，还需要写一个显式的构造函数，传入compare的类
 
 {% highlight java %}
+
 //以groupingComparator为例(这个代码比较少)
 public static class MyComparator extends WritableComparator {
 		/////////////////////////////////////////
@@ -102,6 +103,7 @@ public static class MyComparator extends WritableComparator {
 		}
 
 	}
+
 {% endhighlight %}
 
 添加完构造函数以后，程序就可以正常的运行了。
