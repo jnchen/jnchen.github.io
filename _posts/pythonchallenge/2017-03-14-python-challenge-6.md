@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Challenge第5关闯关流程"
+title: "Python Challenge第6关闯关流程"
 description: "PythonChallenge记录"
 category: pyChallenge
 tags: [python]
