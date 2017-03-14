@@ -41,7 +41,7 @@ while True:
 
 `Collect the comments.` `收集注释`
 
-我们知道zipfile中有一个函数`getinfo()`可以读取文件的信息，其中有一个`comment`保存着文件的注释信息，于是修改程序，将所有的注释输出试试看
+我们知道`zipfile`中有一个函数`getinfo()`可以读取文件的信息，其中有一个`comment`保存着文件的注释信息，于是修改程序，将所有的注释输出试试看
 
 
 ```python
